@@ -1,0 +1,23 @@
+{
+  "name": "iata-icao-airports-list",
+  "version": "1.0.0",
+  "description": "This list contains the airport codes of [IATA airport code](https://en.wikipedia.org/wiki/International_Air_Transport_Association_airport_code) and [ICAO airport code](https://en.wikipedia.org/wiki/International_Civil_Aviation_Organization_airport_code) grouped based on the country code (ISO3166-1) and region name (ISO3166-2) supported in IP2Location geolocation database.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JrSchmidtt/iata-icao-airports-list.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JrSchmidtt/iata-icao-airports-list/issues"
+  },
+  "homepage": "https://github.com/JrSchmidtt/iata-icao-airports-list#readme",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "fs": "^0.0.1-security"
+  }
+}
