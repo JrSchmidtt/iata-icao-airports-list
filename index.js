@@ -7,7 +7,7 @@ fs.createReadStream('iata-icao.csv')
     .pipe(csv())
     .on('data', (data) => results.push(data))
     .on('end', () => {
-        fs.writeFile('result.json', JSON.stringify(results), (err) => {
+        fs.writeFile('iata-icao.json', JSON.stringify(results), (err) => {
             if (err) {
                 console.log('Erro ao escrever arquivo JSON: ', err);
             } else {
